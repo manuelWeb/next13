@@ -1,4 +1,12 @@
-:root, input {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #222;
+  color: #fff;
+  /* Serif family is overwritten by Roboto with new '@next/font/google' optimization foint req and applied to src\app\page.tsx with className def {roboto.className} 🎉 */
+  font-family: serif;
+}
+
+:root,
+input {
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: x-large;
 }
